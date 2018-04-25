@@ -18,11 +18,11 @@ class App extends React.Component {
       //form action here
     updateDropdown(index, event) {
         const dropdown = event.target.value;
-        const dropdownIndex = this.state.dropdownItems.indexOf(dropdown);
+        const dropDownIndex = this.state.dropdownItems.indexOf(dropdown);
         this.setState({
             dropdownItems: [
                 ...this.state.dropdownItems.slice(0, dropDownIndex),
-                ...this.state.dropdownItems.slice(dropdownIndex + 1)
+                ...this.state.dropdownItems.slice(dropDownIndex + 1)
             ],
             [`dropdown${index}`]: dropdown
         });
