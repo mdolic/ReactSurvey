@@ -53,7 +53,7 @@ class App extends React.Component {
                         <p>
                             <Survey
                                         items={this.state.dropdownItems} //selects state
-                                      selected={this.state.dropdown1} //selects the drop down 2 item
+                                      
                                        updateDropDownItems={this.updateDropdown.bind(this, 1)} //updates item 1
                                        />
                             Monday/Wednesday 10:10am-Noon
@@ -61,7 +61,7 @@ class App extends React.Component {
                         <p>
                             <Survey
                                       items={this.state.dropdownItems} //selects state
-                                       selected={this.state.dropdown2} //selects the dropdown 2 item
+                                      
                                        updateDropDownItems={this.updateDropdown.bind(this, 2)} //updates 2 item
                                        />
                             Tuesday 6:00pm-9:00pm
@@ -69,7 +69,7 @@ class App extends React.Component {
                         <p>
                             <Survey
                                       items={this.state.dropdownItems} //selects state
-                                       selected={this.state.dropdown3} //selects dropdown 3 item
+                                       
                                        updateDropDownItems={this.updateDropdown.bind(this, 3)}//updates 3 item
                                        />
                             Wednesday 6:00pm-9:00pm
@@ -77,7 +77,7 @@ class App extends React.Component {
                         <p>
                             <Survey
                                         items={this.state.dropdownItems} //selects states
-                                       selected={this.state.dropdown4} //selects dropdown 3 item
+                                       
                                        updateDropDownItems={this.updateDropdown.bind(this, 4)} //updates 3 item
                                        />
                             Tuesday/Thursday 10:10am-Noon
